@@ -66,3 +66,59 @@
 334  [main] INFO  c.j.p.executor.InitExecution - Finishing execution
 334  [main] INFO  c.j.p.executor.InitExecution - Init execution with parameters = [/Users/joaogabriel/Pictures/teste-photorganizer] ovo
 339  [main] INFO  c.j.p.executor.InitExecution - Finishing execution
+16:38:24.890 DEBUG[InitExecution] :: Init execution with parameters = [/Users/joaogabriel/Pictures/teste-photorganizer] ovo
+16:38:24.895 INFO [InitExecution] :: Finishing execution
+16:38:45.596 INFO [InitExecution] :: Finishing execution
+16:44:53.950 INFO [InitExecution] :: Init execution with parameters = [Ljava.lang.String;@164c786e
+16:44:53.955 INFO [InitExecution] :: Finishing execution
+16:58:20.061 INFO [InitExecution] :: Init execution with parameters = [/Users/joaogabriel/Pictures/teste-photorganizer] 
+16:58:20.070 DEBUG[PhotoExtensionsFilter] :: Allowed files: [jpg,  jpeg,  gif,  png]
+16:58:20.128 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA001.jpg
+16:58:20.298 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA004.jpg
+16:58:20.329 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA006.jpg
+16:58:20.357 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA010.jpg
+16:58:20.384 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA015b.jpg
+16:58:20.414 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA016.jpg
+16:58:20.441 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA017.jpg
+16:58:20.468 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA018.jpg
+16:58:20.494 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA019.jpg
+16:58:20.525 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA020.jpg
+16:58:20.551 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA021.jpg
+16:58:20.578 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA022.jpg
+16:58:20.608 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA025.jpg
+16:58:20.638 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA027.jpg
+16:58:20.638 INFO [InitExecution] :: Finishing execution
+16:58:45.016 INFO [InitExecution] :: Init execution with parameters = [/Users/joaogabriel/Pictures/teste-photorganizer] 
+16:58:45.023 DEBUG[PhotoExtensionsFilter] :: Allowed files: [jpg,  jpeg,  gif,  png]
+16:58:45.038 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA001.jpg
+16:58:45.112 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA004.jpg
+16:58:45.112 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA006.jpg
+16:58:45.113 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA010.jpg
+16:58:45.113 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA015b.jpg
+16:58:45.114 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA016.jpg
+16:58:45.114 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA017.jpg
+16:58:45.115 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA018.jpg
+16:58:45.115 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA019.jpg
+16:58:45.116 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA020.jpg
+16:58:45.116 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA021.jpg
+16:58:45.116 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA022.jpg
+16:58:45.117 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA025.jpg
+16:58:45.118 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA027.jpg
+16:58:45.118 INFO [InitExecution] :: Finishing execution
+16:58:53.290 INFO [InitExecution] :: Init execution with parameters = [/Users/joaogabriel/Pictures/teste-photorganizer] 
+16:58:53.297 DEBUG[PhotoExtensionsFilter] :: Allowed files: [jpg,  jpeg,  gif,  png]
+16:58:53.313 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA001.jpg
+16:58:53.389 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA004.jpg
+16:58:53.390 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA006.jpg
+16:58:53.391 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA010.jpg
+16:58:53.391 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA015b.jpg
+16:58:53.392 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA016.jpg
+16:58:53.392 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA017.jpg
+16:58:53.393 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA018.jpg
+16:58:53.393 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA019.jpg
+16:58:53.394 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA020.jpg
+16:58:53.394 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA021.jpg
+16:58:53.394 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA022.jpg
+16:58:53.395 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA025.jpg
+16:58:53.395 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA027.jpg
+16:58:53.395 INFO [InitExecution] :: Finishing execution

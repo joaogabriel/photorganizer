@@ -3,8 +3,13 @@ package com.joaotech.photorganizer.util;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class PropertiesUtil {
 
+	private static final Logger logger = LoggerFactory.getLogger(PropertiesUtil.class);
+	
 	private static final String PROPERTIES_NAME_FILE = "config.properties";
 	
 	private static Properties properties;
@@ -14,8 +19,7 @@ public class PropertiesUtil {
 			properties = new Properties();
 			properties.load(PropertiesUtil.class.getClassLoader().getResourceAsStream(PROPERTIES_NAME_FILE));
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			logger.error("Error while init config properties", e);
 		}
 	}
 	

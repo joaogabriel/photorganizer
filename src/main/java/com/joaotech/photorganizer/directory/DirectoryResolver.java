@@ -13,16 +13,20 @@ public class DirectoryResolver {
 	private static final Logger logger = LoggerFactory.getLogger(DirectoryResolver.class);
 	
 	public void resolve(String sourceDirectory, File photo, Date takeDate) throws Exception {
+		boolean directoryCreated = false;
 		String folderName = DateParser.getFormattedDate(takeDate);
 		File destinationDirectory = new File(makePath(sourceDirectory, folderName));
 		File originalPhoto = new File(makePath(sourceDirectory, photo.getName()));
 		File organizedPhoto = new File(makePath(destinationDirectory.getAbsolutePath(), photo.getName()));
 		
 		if (!destinationDirectory.exists()) {
-			logger.info("Success to create dir {}", destinationDirectory.mkdir());
+			directoryCreated = destinationDirectory.mkdir();
+			logger.debug("Success to create dir {} = {}", destinationDirectory, directoryCreated);
 		}
 		
 		originalPhoto.renameTo(organizedPhoto);
+		
+		logger.info("Photo moved to {}" , organizedPhoto);
 	}
 
 	private String makePath(String... paths) {
