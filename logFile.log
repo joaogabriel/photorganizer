@@ -122,3 +122,13 @@
 16:58:53.395 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA025.jpg
 16:58:53.395 INFO [PhotoAnalyzer] :: no exif for file /Users/joaogabriel/Pictures/teste-photorganizer/RAFAELA027.jpg
 16:58:53.395 INFO [InitExecution] :: Finishing execution
+20:06:14.106 INFO [InitExecution] :: Init execution with parameters = [/pasta/teste] 
+20:06:14.113 DEBUG[PhotoExtensionsFilter] :: Allowed files: [jpg,  jpeg,  gif,  png]
+20:06:14.118 ERROR[InitExecution] :: Error during execution
+java.lang.NullPointerException: null
+	at com.joaotech.photorganizer.executor.InitExecution.main(InitExecution.java:36) ~[classes/:na]
+20:06:39.735 INFO [InitExecution] :: Init execution with parameters = [/pasta/teste] 
+20:06:50.400 DEBUG[PhotoExtensionsFilter] :: Allowed files: [jpg,  jpeg,  gif,  png]
+20:07:00.334 ERROR[InitExecution] :: Error during execution
+java.lang.NullPointerException: null
+	at com.joaotech.photorganizer.executor.InitExecution.main(InitExecution.java:36) ~[classes/:na]

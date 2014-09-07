@@ -1,4 +1,4 @@
-	package com.joaotech.photorganizer.executor;
+package com.joaotech.photorganizer.executor;
 
 import java.io.File;
 import java.util.Date;
