@@ -1,10 +1,12 @@
 *.class
+*.log
 
 # Package Files #
 *.jar
 *.war
 *.ear
-*.log
+
+# Maven and Eclipse Files #
 .project
 .classpath
 /.settings
