@@ -15,7 +15,7 @@ public class InitExecution {
 	private static final Logger logger = LoggerFactory.getLogger(InitExecution.class);
 	
 	public static void main(String[] args) {
-		Date takeDate = null;
+		Date takenDate = null;
 		String sourceDirectory = null;
 		File sourceDirectoryFile = null;
 		PhotoAnalyzer photoAnalyzer = null;
@@ -39,10 +39,10 @@ public class InitExecution {
 			directoryResolver = new DirectoryResolver();
 			
 			for (File photo : sourceDirectoryFile.listFiles(new PhotoExtensionsFilter())) {
-				takeDate = photoAnalyzer.getTakeDate(photo);
+				takenDate = photoAnalyzer.getTakeDate(photo);
 				
-				if (takeDate != null) {
-					directoryResolver.resolve(sourceDirectory, photo, takeDate);
+				if (takenDate != null) {
+					directoryResolver.resolve(sourceDirectory, photo, takenDate);
 				}
 			}
 			
