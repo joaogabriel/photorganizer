@@ -17,7 +17,7 @@ public class InitExecution {
 	public static void main(String[] args) {
 		Date takeDate = null;
 		String sourceDirectory = null;
-		File diretorioOrigemFile = null;
+		File sourceDirectoryFile = null;
 		PhotoAnalyzer photoAnalyzer = null;
 		DirectoryResolver directoryResolver = null;
 		
@@ -25,15 +25,20 @@ public class InitExecution {
 		
 		try {
 			if (args.length == 0) {
-				throw new Exception("No parameters set to program arguments");
+				throw new IllegalArgumentException("No parameters set to program arguments");
 			}
 			
 			sourceDirectory = args[0];
-			diretorioOrigemFile = new File(sourceDirectory);
+			sourceDirectoryFile = new File(sourceDirectory);
+			
+			if (!sourceDirectoryFile.exists()) {
+				throw new IllegalArgumentException("Directory '"+ sourceDirectory + "' does not exist");
+			}
+			
 			photoAnalyzer = new PhotoAnalyzer();
 			directoryResolver = new DirectoryResolver();
 			
-			for (File photo : diretorioOrigemFile.listFiles(new PhotoExtensionsFilter())) {
+			for (File photo : sourceDirectoryFile.listFiles(new PhotoExtensionsFilter())) {
 				takeDate = photoAnalyzer.getTakeDate(photo);
 				
 				if (takeDate != null) {
