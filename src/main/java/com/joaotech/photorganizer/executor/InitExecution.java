@@ -28,7 +28,7 @@ public class InitExecution {
 				throw new IllegalArgumentException("No parameters set to program arguments");
 			}
 			
-			sourceDirectory = args[0];
+			sourceDirectory = getArgs(args);
 			sourceDirectoryFile = new File(sourceDirectory);
 			
 			if (!sourceDirectoryFile.exists()) {
@@ -50,6 +50,17 @@ public class InitExecution {
 		} catch (Throwable t) {
 			logger.error("Error during execution", t);
 		}
+	}
+	
+	private static String getArgs(String[] args) {
+		final String space = " ";
+		StringBuilder allArgs = new StringBuilder();
+		
+		for (int i = 0; i < args.length; i++) {
+			allArgs.append(args[i]).append(space);
+		}
+		
+		return allArgs.toString().trim();
 	}
 
 }
